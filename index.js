@@ -7,7 +7,7 @@ function takeANumber (lineNumber, name) {
      } else {
        num = num + i;
        return "Welcome, "+ name + ". You are number " + num +" in line.";
-     }
+      }
      }
    }
   
