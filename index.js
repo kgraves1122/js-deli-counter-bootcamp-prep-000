@@ -22,10 +22,10 @@ function currentLine (num) {
   var emp = "The line is currently: "
   if (num.length > 0) {
     for (var i = 0; i < num.length; i++) {
-      if (i + 1 === num.length) {
-      emp = emp + (i + 1) +" . " + num[i]
+      if (i + 1 < num.length) {
+      emp = emp + (i + 1) +" . " + num[i] +", "
       } else {
-        emp = emp + (i + 1) +" . " + num[i] +", "
+        emp = emp + (i + 1) +" . " + num[i] 
       }
       return emp;
     }
