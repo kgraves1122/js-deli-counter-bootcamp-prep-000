@@ -12,7 +12,7 @@ function nowServing (num) {
   if (num.length > 0) {
     var name = num[0];
     num.shift();
-    return name;
+    return "Currently serving " + name;
   } else {
     return "There is nobody waiting to be served!";
   }
