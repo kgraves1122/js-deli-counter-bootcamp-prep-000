@@ -1,11 +1,6 @@
 function takeANumber (lineNumber, name) {
   lineNumber = lineNumber.push(name);
-   var num = 0;
-   for (var i = 0; i < lineNumber.length; i++) {
-     if (i + 1 < lineNumber.length) {
-     num = num + i;
-     } else {
-       num = num + i;
+ 
        return "Welcome, "+ name + ". You are number " + num +" in line.";
       }
      }
