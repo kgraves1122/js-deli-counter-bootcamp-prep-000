@@ -27,8 +27,8 @@ function currentLine (num) {
       } else {
         emp = emp + (i + 1) +". " + num[i] 
       }
-      return emp;
-    }
+      
+    } return emp;
   } else { 
     return "The line is currently empty." }
 }
