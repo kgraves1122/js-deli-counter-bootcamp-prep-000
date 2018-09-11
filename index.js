@@ -1,7 +1,7 @@
 function takeANumber (lineNumber, name) {
   lineNumber = lineNumber.push(name);
  
-       return "Welcome, "+ name + ". You are number " + lineNumber[name] +" in line.";
+       return "Welcome, "+ name + ". You are number " + parseInt(lineNumber[name]) +" in line.";
       
      
    }
